@@ -16,3 +16,4 @@ moviepy
 numpy
 opencv-python
 torch
+flask_cors
