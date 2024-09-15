@@ -14,7 +14,7 @@ app.config['UPLOAD_FOLDER'] = 'anomalous_clips1'  # Folder to store videos
 
 # Load environment variables
 load_dotenv()
-genai.configure(api_key='AIzaSyCRU31GS3v7eiqXLPR4gAKRigbIB2i_L4E')
+genai.configure(api_key='api_key')
 
 # Create the 'anomalous_clips1' folder if it doesn't exist
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
